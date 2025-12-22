@@ -8,6 +8,7 @@ Check it out: https://nisila-perera.github.io/portfolio/
 
 ## What's Inside
 
-- `index.html` - The whole code
-- `favicon.png` - An icon that shows up in the browser tab
+- `index.html` - The main page
+- `miniatures-erp.html` - Project by me
+- `favicon.webp` - An icon that shows up in the browser tab
 - `nisila-perera-resume.pdf` - My life condensed into bullet points
