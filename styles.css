@@ -1,0 +1,93 @@
+/* Common styles for both pages */
+
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: black;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Buttons */
+.btn,
+.download-btn {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn:hover,
+.download-btn:hover {
+    background-color: #333;
+}
+
+/* Links */
+.back-link {
+    color: black;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.back-link:hover {
+    opacity: 0.7;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
+
